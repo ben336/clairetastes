@@ -1,4 +1,4 @@
-<?php get_template_part('templates/page', 'header'); ?>
+<?php /*get_template_part('templates/page', 'header'); */ ?>
 
 <?php if (!have_posts()) : ?>
   <div class="alert alert-warning">
@@ -6,9 +6,12 @@
   </div>
   <?php get_search_form(); ?>
 <?php endif; ?>
-
+<?php if (have_posts()) : 
+  global $postIsFirst;
+  $postIsFirst= 1; endif;
+  ?>
 <?php while (have_posts()) : the_post(); ?>
-  <?php get_template_part('templates/content', get_post_format()); ?>
+  <?php get_template_part('templates/content', get_post_format()); $postIsFirst=0; ?>
 <?php endwhile; ?>
 
 <?php if ($wp_query->max_num_pages > 1) : ?>

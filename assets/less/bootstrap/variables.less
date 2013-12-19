@@ -18,17 +18,17 @@
 // Brand colors
 // -------------------------
 
-@brand-primary:         #428bca;
-@brand-success:         #5cb85c;
-@brand-warning:         #f0ad4e;
-@brand-danger:          #d9534f;
-@brand-info:            #5bc0de;
+@brand-primary:         @blue;
+@brand-success:         @green;
+@brand-warning:         @orange;
+@brand-danger:          @red;
+@brand-info:            @gray;
 
 // Scaffolding
 // -------------------------
 
-@body-bg:               #fff;
-@text-color:            @gray-dark;
+@body-bg:               #ffffff;
+@text-color:            @gray;
 
 // Links
 // -------------------------
@@ -44,7 +44,7 @@
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;
 
-@font-size-base:          16px;
+@font-size-base:          20px;
 @font-size-large:         ceil(@font-size-base * 1.25); // ~20px
 @font-size-small:         ceil(@font-size-base * 0.85); // ~12px
 
@@ -59,9 +59,9 @@
 @line-height-computed:    floor(@font-size-base * @line-height-base); // ~20px
 
 @headings-font-family:    @font-family-base;
-@headings-font-weight:    500;
+@headings-font-weight:    300;
 @headings-line-height:    1.1;
-@headings-color:          inherit;
+@headings-color:          @red;
 
 
 // Iconography

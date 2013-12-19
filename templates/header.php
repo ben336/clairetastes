@@ -1,7 +1,7 @@
 <header class="banner container" role="banner">
   <div class="row">
     <div class="col-lg-12">
-      <a class="brand" href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a>
+     <!-- <a class="brand" href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a>
       <nav class="nav-main" role="navigation">
         <?php
           if (has_nav_menu('primary_navigation')) :
@@ -10,5 +10,7 @@
         ?>
       </nav>
     </div>
+    -->
+    <h1 class="large-logo">Claire Tastes</h1>
   </div>
 </header>

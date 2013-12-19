@@ -1,6 +1,7 @@
-<header class="banner navbar navbar-default navbar-static-top" role="banner">
+<!--<header class="banner navbar navbar-default navbar-static-top" role="banner"> -->
+<header class="header">
   <div class="container">
-    <div class="navbar-header">
+    <!--<div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
@@ -16,6 +17,8 @@
           wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
         endif;
       ?>
-    </nav>
+    </nav> -->
+
+    <h1 class="large-inverse-logo">Claire Tastes</h1>
   </div>
 </header>

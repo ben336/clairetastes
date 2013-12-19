@@ -8,5 +8,6 @@
 
   <?php wp_head(); ?>
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
   <link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
 </head>
