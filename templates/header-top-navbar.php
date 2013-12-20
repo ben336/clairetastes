@@ -19,6 +19,6 @@
       ?>
     </nav> -->
 
-    <h1 class="large-inverse-logo">Claire Tastes</h1>
+    <a class="navbar-brand" href="<?php echo home_url(); ?>/"><h1 class="large-inverse-logo">Claire Tastes</h1></a>
   </div>
 </header>

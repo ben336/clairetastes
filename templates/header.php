@@ -11,6 +11,6 @@
       </nav>
     </div>
     -->
-    <h1 class="large-logo">Claire Tastes</h1>
+    <a href="/"><h1 class="large-logo">Claire Tastes</h1></a>
   </div>
 </header>

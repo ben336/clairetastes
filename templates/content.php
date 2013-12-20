@@ -1,7 +1,7 @@
 <?php global $postIsFirst; ?>
 
 <article <?php post_class(); ?>>
-  <div <?php if($postIsFirst==1) { echo 'class="firstPost"'; } ?>>
+  <div class="wrapper <?php if($postIsFirst==1) { echo 'firstPost"'; } ?>">
     <div class="post-thumbnail">
     <?php 
       if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.

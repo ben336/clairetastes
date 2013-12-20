@@ -1,11 +1,22 @@
 .hentry {
+    background:transparent;
     .fit-to-content;
+    .wrapper {
+        .fit-to-content;
+        background-color: fade(@orange,15%);
+        margin: 15px 5px 15px 5px;
+        border-radius: 15px;
+        width:100%;
+        height:100%;
+    }
+
 }
 
 .post-thumbnail {
     .pull-left;
     .thumbnail;
-    margin: 2px 7px 2px 2px;
+    margin: 0 10px 0 0;
+    padding: 0;
 }
 
 .firstPost .post-thumbnail {
@@ -16,9 +27,10 @@
     top: 0;
 }
 
-.firstPost  {
+.hentry .wrapper.firstPost  {
     position:relative;
-
+    background-color:transparent;
+    padding:0;
     .postHeader{
         top: 0;
         padding: 5px 20px 5px 20px;
@@ -36,6 +48,8 @@
 
     }
 }
+
+
 
 
 .hentry header { }
