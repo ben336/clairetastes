@@ -40,7 +40,6 @@ function roots_sidebar2_class() {
 }
 
 
-
 /**
  * Define which pages shouldn't have the sidebar
  *

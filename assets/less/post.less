@@ -1,9 +1,11 @@
 .hentry {
     background:transparent;
+    padding: 0 20px 0 20px;
+    color:@gray-dark;
     .fit-to-content;
     .wrapper {
         .fit-to-content;
-        background-color: fade(@orange,15%);
+        background-color: @white;
         margin: 15px 5px 15px 5px;
         border-radius: 15px;
         width:100%;
@@ -19,12 +21,17 @@
     padding: 0;
 }
 
-.firstPost .post-thumbnail {
+.firstPost {
+    .published {
+        color:@gray-lighter;
+    }
+    .post-thumbnail {
     padding:0;
     margin:0;
     border: none;
     width: 100%;
     top: 0;
+    }
 }
 
 .hentry .wrapper.firstPost  {
@@ -35,7 +42,7 @@
         top: 0;
         padding: 5px 20px 5px 20px;
         width: 100%;
-        height: 200px;
+        .fit-to-content;
         z-index: 5;
         background-color: @overlay;
         position:absolute;
@@ -48,12 +55,26 @@
 
     }
 }
+ 
+
+.entry-content {
+    font-size: @font-size-large;
+}
 
 
+/** Single Post styles **/
 
+.full-post {
+    background-color: @white;
+    border-radius: 50px;
+    padding:25px;
+    img {
+        max-width: 100%;
+        display:block;
+        margin: 5px auto 5px auto;
+        width:auto;
+        height:auto;
+    }
+}
 
-.hentry header { }
-.hentry time { }
-.hentry .byline { }
-.hentry .entry-content { }
-.hentry footer { }
+ 
